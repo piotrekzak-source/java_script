@@ -1,10 +1,11 @@
+var links = document.getElementsByTagName("a");
 
-let age = 5;
 
-while(age < 10){
+for (i= 1; i < links.length; i++){
 
-        console.log("Twoj wiek jest mniejszy niz 10");
-        age++;
+        console.log("To jest link numer" +" " + i);
+        
 
 }
-document.write("Twoj wiek jest wiekszy niz 10");
+
+document.write("Wszystkie linki sa w petli");
