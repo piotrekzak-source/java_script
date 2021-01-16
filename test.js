@@ -1,12 +1,10 @@
 
-let x = 26;
+let age = 5;
 
-if (x < 18 || x > 35 || x === 25){
+while(age < 10){
 
-  document.write("Nie mozesz przyjsc");
+        console.log("Twoj wiek jest mniejszy niz 10");
+        age++;
 
-}else{
-
-  document.write("Mozesz przyjsc");
-  
 }
+document.write("Twoj wiek jest wiekszy niz 10");
