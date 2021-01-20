@@ -1,6 +1,6 @@
 let Car = function(maxSpeed, driver){
 
-    this.maxSpeed = maxSpeed,
+    this.maxSpeed = maxSpeed;
     this.driver = driver;
     this.drive = function(speed, time){
 
